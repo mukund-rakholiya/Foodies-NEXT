@@ -1,9 +1,12 @@
+"use client";
+
 import { usePathname } from "next/navigation";
+import Link from "next/link";
 import React from "react";
 
-function NavLink({href, children}) {
+function NavLink({ href, children }) {
   const path = usePathname();
-   
+
   return (
     <Link
       href={href}
