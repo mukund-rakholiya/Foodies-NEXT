@@ -1,9 +1,3 @@
-import React from 'react'
-
-function ShareMealPage() {
-  return (
-    <h1>Share Meal Page</h1>
-  )
+export default function ShareMealPage() {
+  return <h1>Share Meal</h1>;
 }
-
-export default ShareMealPage
