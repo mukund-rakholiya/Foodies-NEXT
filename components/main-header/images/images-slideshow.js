@@ -49,5 +49,4 @@ const ImageSlideshow =  function () {
   );
 }
 
-
 export default ImageSlideshow;
