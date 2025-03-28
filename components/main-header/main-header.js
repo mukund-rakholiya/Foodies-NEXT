@@ -4,8 +4,11 @@ import React from "react";
 import logoImg from "@/assets/logo.png";
 import classes from "./main-header.module.css";
 import MainHeaderBackground from "./main-header-background";
+import { usePathname } from "next/navigation";
 
 function MainHeader() {
+  const path = usePathname();
+
   return (
     <>
       <MainHeaderBackground />
@@ -18,10 +21,24 @@ function MainHeader() {
         <nav className={classes.nav}>
           <ul>
             <li>
-              <Link href="/meals">Brows meals</Link>
+            <Link
+                href="/meals"
+                className={
+                  path.startsWith("/meal") ? classes.active : undefined
+                }
+              >
+                Brows meals
+              </Link>
             </li>
             <li>
-              <Link href="/community">Foodies Community</Link>
+              <Link
+                href="/community"
+                className={
+                  path.startsWith("/community") ? classes.active : undefined
+                }
+              >
+                Foodies Community
+              </Link>
             </li>
           </ul>
         </nav>
