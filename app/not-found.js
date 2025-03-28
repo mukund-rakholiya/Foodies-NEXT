@@ -4,7 +4,7 @@ function NotFound() {
   return (
     <main className='not-found'>
       <h1>Not Found</h1>
-      <P>Unfortnetely, we could not find the requested page or resource.</P>
+      <p>Unfortnetely, we could not find the requested page or resource.</p>
     </main>
   )
 }
