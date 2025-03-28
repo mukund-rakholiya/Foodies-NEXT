@@ -1,9 +1,14 @@
+import classes from "./page.module.css";
+
 export default function Home() {
   return (
-    <main>
-      <h1 style={{ color: 'white', textAlign: 'center' }}>
-        Time to get started!
-      </h1>
-    </main>
+    <>
+      <header className={classes.header}>
+        <div className={classes.div} >
+          
+        </div>
+      </header>
+      <main></main>
+    </>
   );
 }
