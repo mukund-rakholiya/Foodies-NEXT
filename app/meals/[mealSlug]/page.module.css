@@ -34,6 +34,23 @@
   text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
 }
 
+.summary {
+  font-size: 1.5rem;
+}
+
+.instructions {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  background-color: #6e6464;
+  color: #13120f;
+  border-radius: 8px;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  max-width: 60rem;
+  margin: 2rem auto;
+  animation: fade-slide-in-from-bottom 1s ease-out forwards;
+}
+
 .creator {
   font-size: 1.5rem;
   color: #cfa69b;
@@ -54,23 +71,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 0 0 18px rgba(248, 190, 42, 0.8);
-}
-
-.summary {
-  font-size: 1.5rem;
-}
-
-.instructions {
-  font-size: 1.25rem;
-  line-height: 1.5;
-  background-color: #6e6464;
-  color: #13120f;
-  border-radius: 8px;
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
-  padding: 2rem;
-  max-width: 60rem;
-  margin: 2rem auto;
-  animation: fade-slide-in-from-bottom 1s ease-out forwards;
 }
 
 .loading {
